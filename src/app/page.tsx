@@ -9,13 +9,7 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* @ts-expect-error Async Server Component */}
-      {/* <SlidePosts /> */}
-      {/* @ts-expect-error Async Server Component */}
-      {/* <FeaturePosts /> */}
-
      <FilterablePosts posts={posts} categories={categories} />
-
     </>
   );
 }
