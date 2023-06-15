@@ -1,3 +1,10 @@
+import FeaturePosts from '@/components/FeaturePosts';
+
 export default function HomePage() {
-  return <main className='bg-gray-500'>main page</main>;
+  return (
+    <>
+      {/* @ts-expect-error Async Server Component */}
+      <FeaturePosts />
+    </>
+  );
 }
