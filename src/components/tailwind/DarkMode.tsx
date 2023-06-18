@@ -1,36 +1,22 @@
 'use client';
 
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
-import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
-interface IDarkMode {}
-
-export default function DarkMode({}: IDarkMode) {
-  const [mounted, setMounted] = useState(false);
-  const { systemTheme, theme, setTheme } = useTheme();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return null;
-  }
-
-  const onClick = (mode: string) => () => {
-    setTheme(mode);
-  };
-
-  const currentTheme = theme === "system" ? systemTheme : theme;
+export default function DarkMode() {
+  const { theme, setTheme } = useTheme();
 
   return (
-    <div className="bg-darkModeBg cursor-pointer rounded-[50%] p-1">
-    {currentTheme === "dark" ? (
-    <BsFillMoonFill onClick={onClick("light")} />
-) : (
-  <BsFillSunFill onClick={onClick("dark")} />
-)}
-  </div>
+    <button 
+      className=" transition-all hover:bg-gray-300 dark:hover:bg-gray-200/20 rounded-[50%] p-2 hover:text-yellow-300 dark:hover:text-orange-400"
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+    >
+      {theme === "dark" ? (
+      <BsFillSunFill className='w-5 h-5' />
+      ) : (
+      <BsFillMoonFill className='w-5 h-5' />
+      )}
+    </button>
+    
 );
 }

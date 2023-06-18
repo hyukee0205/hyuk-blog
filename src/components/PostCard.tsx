@@ -17,13 +17,11 @@ export default function PostCard({
           width={300}
           height={200}
         />
-        <div className='flex flex-col items-center p-4'>
-          <time className='self-end'>{date.toString()}</time>
-          <h3 className='text-lg font-semibold'>{title}</h3>
-          <p className='w-full truncate text-center'>{description}</p>
-          <span className='text-sm rounded-lg bg-green-100 px-2 my-2'>
-            {category}
-          </span>
+        <div className='flex flex-col px-5 py-4'>
+          <p className='font-medium text-lightSub dark:text-darkSub'>{category}</p>
+          <h3 className='text-xl font-semibold mb-1'>{title}</h3>
+          <p className='w-full truncate mb-6'>{description}</p>
+          <time className='text-sm text-lightSub dark:text-darkSub'>{date.toString()}</time>
         </div>
       </article>
     </Link>

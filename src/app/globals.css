@@ -9,15 +9,42 @@ body {
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-  --hello: #aea;
+  --background: #f7f7f7;
+  --text-color: #1f2937;
 }
 
 :root.dark {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
-  --hello: #e5e5;
+  --background: #202125;
+  --text-color: #fefefe;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: var(--text-color);
+}
+
+.dark p {
+  color: var(--text-color);
 }
