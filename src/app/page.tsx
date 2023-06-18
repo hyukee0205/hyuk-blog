@@ -1,6 +1,4 @@
-import FeaturePosts from '@/components/FeaturePosts';
 import FilterablePosts from '@/components/FilterablePosts';
-import SlidePosts from '@/components/SlidePosts';
 import { getAllPosts } from '@/service/posts';
 
 export default async function HomePage() {
