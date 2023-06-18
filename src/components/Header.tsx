@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import DarkMode from './tailwind/DarkMode';
 
 export default function Header() {
   return (
@@ -10,6 +11,7 @@ export default function Header() {
         <Link className='font-semibold' href='/about'>About</Link>
         <Link className='font-semibold' href='/posts'>Posts</Link>
         <Link className='font-semibold' href='/contact'>Contact</Link>
+        <DarkMode />
       </nav>
     </header>
   );
