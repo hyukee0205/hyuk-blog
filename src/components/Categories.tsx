@@ -8,14 +8,16 @@ type Props = {
 
 export default function Categories({categories, selected, onClick}: Props) {
   return (
-    <section className='text-center p-4'> 
-      <h2 className='text-lg font-bold border-b border-sky-500 mb-2'>Category</h2>
-      <ul>
+    <section className='flex items-center mb-10 px-4 py-4 bg-white dark:bg-darkSecond rounded-md'> 
+      <h2 className='font-medium mr-10'>Category</h2>
+      <ul className='flex'>
         {categories.map((category) => (
           <li
-            className={`cursor-pointer hover:text-sky-500 ${
-              category === selected && 'text-sky-600'
-            }`}
+          className={`${
+            category === selected
+              ? 'bg-blue-500 text-white dark:bg-blue-700'
+              : 'bg-[#f2f2f2] dark:bg-[#484848]'
+          } text-sm font-medium mr-2 px-3 py-1 rounded-md cursor-pointer dark:hover:bg-blue-700 hover:bg-blue-600 hover:text-white`}          
             key={category}
             onClick={() => onClick(category)}
           >

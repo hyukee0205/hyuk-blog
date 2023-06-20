@@ -8,7 +8,7 @@ export default function DarkMode() {
 
   return (
     <button 
-      className=" transition-all hover:bg-gray-300 dark:hover:bg-gray-200/20 rounded-[50%] p-2 hover:text-yellow-300 dark:hover:text-orange-400"
+      className=" transition-all hover:bg-gray-300/70 dark:hover:bg-gray-200/20 rounded-[50%] p-2 hover:text-yellow-300 dark:hover:text-orange-400"
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
     >
       {theme === "dark" ? (
