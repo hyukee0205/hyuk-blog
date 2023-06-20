@@ -1,74 +1,42 @@
 [
   {
+    "title": "var, let, const의 차이점",
+    "description": "var, let, const의 차이점에 대해 알아보자",
+    "date": "2023-06-21",
+    "category": "JavaScript",
+    "path": "var-let-const",
+    "featured": true
+  },
+  {
+    "title": "자바스크립트란?",
+    "description": "자바스크립트란 어떤 언어일까?",
+    "date": "2023-06-21",
+    "category": "JavaScript",
+    "path": "javascript",
+    "featured": true
+  },
+  {
+    "title": "GET과 POST의 차이",
+    "description": "GET과 POST의 의미를 알아보자",
+    "date": "2023-06-21",
+    "category": "CS",
+    "path": "get-post",
+    "featured": true
+  },
+  {
+    "title": "RESTful한 API란?",
+    "description": "RESTful한 API란 무엇일까?",
+    "date": "2023-06-21",
+    "category": "CS",
+    "path": "restful-api",
+    "featured": true
+  },
+  {
     "title": "HTTP, HTTPS 차이점",
     "description": "HTTP와 HTTPS의 차이점에 대하여",
     "date": "2023-06-20",
     "category": "CS",
     "path": "http-https",
-    "featured": true
-  },
-  {
-    "title": "자바스크립트 기초 문법",
-    "description": "기본 문법부터 사용하는 실전까지 최종정리",
-    "date": "2022-05-08",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "featured": true
-  },
-  {
-    "title": "타입스크립트 팁!",
-    "description": "프로처럼 자바스크립트 사용할 수 있는 10가지 팁",
-    "date": "2022-06-14",
-    "category": "typescript",
-    "path": "javascript-10-tips",
-    "featured": true
-  },
-  {
-    "title": "노드 기초 문법",
-    "description": "기본 문법부터 사용하는 실전까지 최종정리",
-    "date": "2022-05-06",
-    "category": "node",
-    "path": "javascript-basic",
-    "featured": false
-  },
-  {
-    "title": "리액트 기초 문법!",
-    "description": "프로처럼 자바스크립트 사용할 수 있는 10가지 팁",
-    "date": "2022-06-12",
-    "category": "react",
-    "path": "javascript-10-tips",
-    "featured": true
-  },
-  {
-    "title": "자바스크립트 기초 문법",
-    "description": "기본 문법부터 사용하는 실전까지 최종정리",
-    "date": "2022-05-01",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "featured": false
-  },
-  {
-    "title": "자바스크립트 10가지 프로팁!",
-    "description": "프로처럼 자바스크립트 사용할 수 있는 10가지 팁",
-    "date": "2022-06-03",
-    "category": "javascript",
-    "path": "javascript-10-tips",
-    "featured": true
-  },
-  {
-    "title": "자바스크립트 기초 문법",
-    "description": "기본 문법부터 사용하는 실전까지 최종정리",
-    "date": "2022-05-30",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "featured": false
-  },
-  {
-    "title": "자바스크립트 10가지 프로팁!",
-    "description": "프로처럼 자바스크립트 사용할 수 있는 10가지 팁",
-    "date": "2022-06-20",
-    "category": "javascript",
-    "path": "javascript-10-tips",
     "featured": true
   }
 ]

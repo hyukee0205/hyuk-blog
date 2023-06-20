@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className='text-center'>
       <Image
-        className='rounded-full mx-auto'
+        className='rounded-full mx-auto border-[5px] dark:border-white border-black'
         src={profileImage}
         alt='Profile Image'
         width={200}
