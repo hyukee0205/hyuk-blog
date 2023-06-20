@@ -3,7 +3,7 @@ import DarkMode from './tailwind/DarkMode';
 
 export default function Header() {
   return (
-    <header className='flex justify-between items-center px-6 py-5 border-b'>
+    <header className='sticky top-0 z-10 bg-[#f7f7f7] dark:bg-[#1c1c1c] flex justify-between items-center px-6 py-5 border-b dark:border-b-darkSecond'>
       <Link href='/'>
         <h1 className='text-2xl font-bold'>{"Hyuk"}</h1>
       </Link>
