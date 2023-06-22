@@ -1,5 +1,45 @@
 [
   {
+    "title": "실행 컨텍스트란 무엇인가?",
+    "description": "실행 컨텍스트는 코드를 실행하는데 필요한 중요한 개념이다.",
+    "date": "2023-06-22",
+    "category": "JavaScript",
+    "path": "execution-context",
+    "featured": true
+  },
+  {
+    "title": "이벤트 루프란 무엇인가?",
+    "description": "자바스크립트가 멀티 스레드처럼 동작하는 이유를 알아보자",
+    "date": "2023-06-22",
+    "category": "JavaScript",
+    "path": "event-loop",
+    "featured": true
+  },
+  {
+    "title": "호이스팅이란 ?",
+    "description": "호이스팅 이해하기",
+    "date": "2023-06-22",
+    "category": "JavaScript",
+    "path": "hoisting",
+    "featured": true
+  },
+  {
+    "title": "원시값과 참조값, 얕은복사와 깊은복사",
+    "description": "원시값과 참조값을 알아보고 얕은복사와 깊은복사의 차이를 이해하기",
+    "date": "2023-06-22",
+    "category": "JavaScript",
+    "path": "shallow-deep",
+    "featured": true
+  },
+  {
+    "title": "스코프와 클로저",
+    "description": "스코프와 클로저 대해 알아보자",
+    "date": "2023-06-21",
+    "category": "JavaScript",
+    "path": "scope-closure",
+    "featured": true
+  },
+  {
     "title": "var, let, const의 차이점",
     "description": "var, let, const의 차이점에 대해 알아보자",
     "date": "2023-06-21",
